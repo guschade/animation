@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    0% {bottom: 0%; top: 0px}
+    25% {bottom: 200px; top: 0px;}
+    50% {bottom: 200px; top: 200px;}
+    75% {bottom: 0px; top: 200px;}
+    100% {bottom: 0px; top: 0px}
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+h1{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px
+}
+</style>
+</head>
+<body>
+    <div>
+        <h1 style="font-size: 22px;">animação - otávio</h1>
+    </div>
+    <p>faça uma animação para o professor</p>
+
+</body>
+</html>
